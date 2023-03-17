@@ -15,6 +15,7 @@
 :root {
   --principal1: #822faf;
   --principal2: #ba00f3;
+  width: 100%;
 }
 
 html {
