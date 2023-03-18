@@ -20,11 +20,68 @@
   .service-division {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     width: 90%;
     margin-top: 5vh;
   }
+
+
+
+  .gestao-deco {
+    display: none;
+  }
+
+  .gestao-text {
+    width: 100%;
+  }
+
+  .gestao-text h2 {
+    font-size: 11vw;
+    line-height: 14vw;
+    
+  }
+
+  .gestao-text h2 span:nth-child(1) {
+    font-weight: 400;
+    letter-spacing: 0.5vw;
+  }
+
+  .eficiencia h2 {
+    letter-spacing: 1.8vw;
+  }
+
+  .gestao-text h2 span:nth-child(3) {
+    font-weight: 900;
+  }
+
+  .gestao-area2 {
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2vh;
+  }
+
+  .info-box {
+    width: 78vw;
+    margin-top: 6vh;
+  }
+
+
+  .info-box h2 {
+    font-size: 5vw;
+  }
+  
+  .info-box h3 {
+    font-size: 2.5vw;
+  }
+  
+  
+  .info-box p {
+    font-size: 2vw;
+  }
+
 
   .parceiro-box {
     width: 25vw;

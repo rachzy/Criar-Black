@@ -6,7 +6,11 @@ import GestaoRedesSociais from "../../assets/gestao_redes_sociais.png";
 import Marketing from "../../assets/marketing.png";
 import DesenvolvimentoWeb from "../../assets/desenvolvimento-web.png";
 import DesignerECriacao from "../../assets/designer_e_criacao.png";
-
+import GestaoDeEquipes from "../../assets/gestao-equipes.png";
+import GestaoComercial from "../../assets/Gestão comercial.png";
+import GestaoComercial1 from "../../assets/Gestão comercialfoto.png";
+import GestaoComercial2 from "../../assets/Gestão comercialfoto2.png";
+import GestaoComercial3 from "../../assets/Gestão comercialfoto3.png";
 import video from "../../assets/Inbound.mp4";
 import ServiceBox from "../../components/ServiceBox";
 
@@ -56,33 +60,33 @@ const ServiceArea = () => {
           </h2>
         </main>
         <main className="gestao-deco">
-          <div className="first-box"></div>
-          <div className="last-box"></div>
-          <div className="box-img"></div>
+          <div className="first-box">
+            <img src={GestaoComercial1} alt="" />
+          </div>
+          <div className="last-box">
+            <img src={GestaoComercial2} alt="" />
+          </div>
+          <div className="box-img">
+          <img src={GestaoComercial3} alt="" />
+          </div>
         </main>
       </main>
 
-      <main className="gestao-area">
+      <main className="gestao-area2">
         <div className="info-box">
-          <h2>Bla Bla Bla</h2>
-          <h3>bla bla bla</h3>
-          <img src={DesignerECriacao} alt="" />
+          <h2>Alavancando o Sucesso Empresarial</h2>
+          <h3>Otimizar sua gestão de vendas e conquistar mais clientes</h3>
+          <img src={GestaoComercial} alt="" />
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab
-            molestias dignissimos repellendus laboriosam distinctio unde eum
-            nisi magnam hic tempora. Dolorem obcaecati minus totam vero
-            provident fugiat, dolorum dicta quod.
+          A gestão comercial é um fator crucial para o sucesso de qualquer empresa, independentemente do seu tamanho ou segmento de atuação. Neste artigo, apresentaremos algumas estratégias eficazes para otimizar a gestão de vendas e conquistar mais clientes, incluindo a definição de metas claras, o uso de tecnologias avançadas e a capacitação da equipe de vendas. Com essas dicas práticas, sua empresa estará preparada para enfrentar os desafios do mercado e alcançar o sucesso comercial desejado.
           </p>
         </div>
         <div className="info-box">
-          <h2>Bla Bla Bla</h2>
-          <h3>bla bla bla</h3>
-          <img src={DesignerECriacao} alt="" />
+          <h2>Desenvolver e Motivar seus Colaboradores</h2>
+          <h3>Dicas práticas para liderar com eficiência e aumentar a produtividade da equipe</h3>
+          <img src={GestaoDeEquipes} alt="" />
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab
-            molestias dignissimos repellendus laboriosam distinctio unde eum
-            nisi magnam hic tempora. Dolorem obcaecati minus totam vero
-            provident fugiat, dolorum dicta quod.
+          A liderança e gestão de equipes são fundamentais para o sucesso empresarial. Neste artigo, apresentaremos estratégias para formar equipes de alta performance e alcançar resultados expressivos, incluindo a definição de objetivos claros, o estabelecimento de uma comunicação eficiente, a identificação das competências de cada colaborador e a oferta de oportunidades de desenvolvimento.
           </p>
         </div>
       </main>
