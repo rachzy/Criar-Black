@@ -7,10 +7,10 @@ import Marketing from "../../assets/marketing.png";
 import DesenvolvimentoWeb from "../../assets/desenvolvimento-web.png";
 import DesignerECriacao from "../../assets/designer_e_criacao.png";
 import GestaoDeEquipes from "../../assets/gestao-equipes.png";
-import GestaoComercial from "../../assets/Gestão comercial.png";
-import GestaoComercial1 from "../../assets/Gestão comercialfoto.png";
-import GestaoComercial2 from "../../assets/Gestão comercialfoto2.png";
-import GestaoComercial3 from "../../assets/Gestão comercialfoto3.png";
+import GestaoComercial from "../../assets/gestao_comercial.png";
+import GestaoComercial1 from "../../assets/gestao_comercialfoto.png";
+import GestaoComercial2 from "../../assets/gestao_comercialfoto2.png";
+import GestaoComercial3 from "../../assets/gestao_comercialfoto3.png";
 import video from "../../assets/Inbound.mp4";
 import ServiceBox from "../../components/ServiceBox";
 
