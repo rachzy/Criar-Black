@@ -66,9 +66,6 @@ const TopBox = () => {
               <div className="perfil-box">
                 <img src={Pessoa2} alt="Pessoa" />
               </div>
-              <div className="perfil-box">
-                <img src={Pessoa1} alt="Pessoa" />
-              </div>
             </div>
             <h3>
               <div className="dot"></div>
