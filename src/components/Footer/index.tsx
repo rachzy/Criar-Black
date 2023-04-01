@@ -27,11 +27,13 @@ const Footer = () => {
             CEP: 38744-528
           </h3>
           <h2 className="contato">Contato</h2>
-          <a href="#">
-            <i className="fa fa-headphones" aria-hidden="true"></i> (34)
-            9945-4242
+          <a
+            target="_blank"
+            href="https://wa.me/5534999454242?text=Ol%C3%A1+Rafa%2C+visitei+seu+site+e+gostaria+de+entender+mais+sobre+a+Criar%21"
+          >
+            <i className="fa-brands fa-whatsapp"></i> (34) 9945-4242
           </a>
-          <a href="#">
+          <a target="_blank" href="mailto:contato@criarideias.com.br">
             <i className="fa fa-envelope-o" aria-hidden="true"></i>
             contato@criarideias.com.br
           </a>

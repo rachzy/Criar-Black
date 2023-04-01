@@ -155,6 +155,7 @@
 }
 
 .endereco a {
+  display: flex;
   font-size: 1.1vw;
   color: rgba(255, 255, 255, 0.8);
   font-weight: 300;
@@ -168,7 +169,7 @@
 }
 
 .endereco i {
-  font-size: 1.1vw;
+  font-size: 1.6vw;
   margin-right: 0.5vw;
 }
 
