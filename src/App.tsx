@@ -1,4 +1,6 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import "./App.css";
 import AboutUs from "./sections/AboutUs";
 import Cards from "./components/Cards";
@@ -14,14 +16,17 @@ import TopBox from "./sections/TopBox";
 const App = () => {
   return (
     <>
-      <Header />
-      <NavMobile />
-      <TopBox />
-      <EvolutionArea />
-      <AboutUs />
-      <ServiceArea />
-      <Partners />
-      <Cards />
+      <Router>
+        <Header />
+        <NavMobile />
+        <Routes>
+          <Route path="/" index element={<TopBox />} />
+          <Route path="/aboutUs" element={<AboutUs />} />
+          <Route path="/services" element={<ServiceArea />} />
+          <Route path="/partners" element={<Partners />} />
+          <Route path="/cards" element={<Cards />} />
+        </Routes>
+      </Router>
       <Footer />
     </>
   );

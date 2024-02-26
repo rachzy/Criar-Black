@@ -1,3 +1,7 @@
+header {
+  margin-bottom: 20vh;
+}
+
 .nav-mobile {
   display: none;
   width: 100%;
@@ -141,15 +145,19 @@
 
 .header {
   display: flex;
+  position: fixed;
+
+  background-color: rgb(25, 25, 25);
 
   width: 100%;
   flex-direction: flex;
   align-items: center;
   justify-content: center;
-  background: transparent;
   height: 15vh;
 
   margin-bottom: 10vh;
+
+  z-index: 9999;
 }
 
 .nav-top {
@@ -188,7 +196,7 @@
   transform: translateY(-5px);
 }
 
-.nav-sections a:first-child {
+.nav-sections a.active {
   color: rgba(255, 255, 255, 0.6);
 }
 

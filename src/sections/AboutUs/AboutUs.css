@@ -3,14 +3,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 15vh;
   flex-direction: column;
 }
 
 .about-text {
   text-align: center;
   cursor: default;
-  margin-top: 12vh;
 }
 
 .about-text h2 {
