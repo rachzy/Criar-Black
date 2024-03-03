@@ -24,8 +24,8 @@ const AboutUs = () => {
             SOMOS MAIS QUE UMA <span>SIMPLES AGÊNCIA</span>
           </h2>
           <h3>
-            Oque somos? e por que somos? com orgulho falamos que somos a
-            revolução, não somos somente uma agência de marketing e publicidade,
+            O que somos? E por que somos? Com orgulho, falamos que somos a
+            revolução! Não somos somente uma agência de marketing e publicidade,
             somos responsáveis pela criação de sonhos e concretização de planos,
             somos resultados e somos dedicação.
             <br />
@@ -35,33 +35,16 @@ const AboutUs = () => {
           </h3>
           <div className="resultados">
             <div className="resultados-box">
-              <h2
-                data-contar-ate-numero="1,000,000"
-                data-duracao-de-animacao="3000"
-              >
-                <div className="plus">+</div>
-                <span className="resultados-number">8</span>
-              </h2>
-              <h3>Estados</h3>
-            </div>
-            <div className="resultados-box">
               <h2>
                 <div className="plus">+</div>
-                <span className="resultados-number">70</span>
-              </h2>
-              <h3>Cidades</h3>
-            </div>
-            <div className="resultados-box">
-              <h2>
-                <div className="plus">+</div>
-                <span className="resultados-number">15</span>
+                <span className="resultados-number">10</span>
               </h2>
               <h3>Projetos</h3>
             </div>
             <div className="resultados-box">
               <h2>
                 <div className="plus">+</div>
-                <span className="resultados-number">70</span>
+                <span className="resultados-number">50</span>
               </h2>
               <h3>Clientes</h3>
             </div>

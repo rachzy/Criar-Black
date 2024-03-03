@@ -55,7 +55,7 @@ const TopBox = () => {
             </button>
           </div>
 
-          <div className="user-online">
+          {/* <div className="user-online">
             <div className="perfil-boxes">
               <div className="perfil-box">
                 <img src={Pessoa1} alt="Pessoa" />
@@ -71,7 +71,7 @@ const TopBox = () => {
               <div className="dot"></div>
               {currentUsers} Usuarios Online
             </h3>
-          </div>
+          </div> */}
         </div>
       </main>
       <main className="top-right">

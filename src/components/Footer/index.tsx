@@ -26,7 +26,7 @@ const Footer = () => {
       <main className="rodape-division">
         <div className="reuniao">
           <h2>Agende Sua Reunião</h2>
-          <h3>Você sera respondido em seu e-mail</h3>
+          <h3>Você sera respondido em seu WhatsApp</h3>
           <div className="underline">
             <input name="nome" ref={inputs[0]} type="text" placeholder="Nome" />
           </div>
